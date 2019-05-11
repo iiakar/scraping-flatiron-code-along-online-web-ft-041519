@@ -18,7 +18,7 @@ def self.reset_all
  
 end
 
-def course.all
+def Course.all
 array_new = []
 
 end
