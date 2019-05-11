@@ -23,7 +23,7 @@ def make_courses
     course.description = post.css("p").tex
   return get_courses 
   end
-end
+
 
 
 
