@@ -3,6 +3,7 @@ attr_accessor :title, :schedule, :description
 
 @@all = []
 @all=[]
+
 def initialize
   @@all << self
 end
@@ -19,7 +20,7 @@ def self.reset_all
 end
 
 def Course.all
-array_new = []
+@@all << Course.all
 
 end
 
