@@ -20,7 +20,7 @@ def self.reset_all
 end
 
 def Course.all
-@@all << Course.all
+@@all
 
 end
 
