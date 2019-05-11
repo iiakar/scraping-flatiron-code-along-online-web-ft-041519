@@ -20,11 +20,11 @@ end
 end
 
 
-def something
+def course
 array_new = [another_thing, another_thing_2]
 
 
-return [array_new, hash_map]
+return [array_new]
 
 end
 
