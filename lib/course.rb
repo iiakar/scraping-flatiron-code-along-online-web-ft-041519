@@ -8,13 +8,13 @@ def initialize
 end
 
 def self.all
-  @all
+  @all << course
 end
 
 def self.reset_all
   @@all.clear
 
- def course.all 
+ def  
 end
 end
 
