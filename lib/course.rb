@@ -19,3 +19,14 @@ def self.reset_all
 end
 end
 
+
+def something
+array_new = [another_thing, another_thing_2]
+
+
+return [array_new, hash_map]
+
+end
+
+
+
