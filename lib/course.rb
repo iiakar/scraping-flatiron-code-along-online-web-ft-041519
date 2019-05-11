@@ -14,8 +14,7 @@ end
 def self.reset_all
   @@all.clear
 
-def self.all
-  self 
+ 
 end
 end
 
