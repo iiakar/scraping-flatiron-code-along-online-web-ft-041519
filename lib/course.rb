@@ -16,4 +16,4 @@ def self.reset_all
 end
 end
 
-
+Course.all = [course, course_one, course_two, course_three]
