@@ -20,13 +20,17 @@ end
 end
 
 
-def course
-array_new = [another_thing, another_thing_2]
-
-
-return [array_new]
+def course.all
+array_new = []
 
 end
 
 
-
+context "class methods" do 
+    describe ".all" do 
+      it "returns an array of all the instances of the Course class" do
+        Course.reset_all
+        course_one = Course.new
+        course_two = Course.new
+        course_three = Course.new 
+        expect(Course.all).to match_array([course, course_one, course_two, course_three])
