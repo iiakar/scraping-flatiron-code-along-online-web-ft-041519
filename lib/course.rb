@@ -23,9 +23,6 @@ def Course.all
 @@all
 
 end
-
-
-
 end
 
 
